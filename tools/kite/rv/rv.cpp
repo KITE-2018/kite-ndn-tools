@@ -32,7 +32,7 @@ namespace rv {
 
 NDN_LOG_INIT(kite.rv);
 
-const char* CONF_PATH = "/home/charlie/ndn/misc/rv.conf";
+const char* CONF_PATH = "/usr/local/etc/ndn/rv.conf";
 
 Rv::Rv(Face& face, KeyChain& keyChain, const Options& options)
   : m_options(options)
